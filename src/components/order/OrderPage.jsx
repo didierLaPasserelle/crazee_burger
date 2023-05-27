@@ -4,9 +4,9 @@ export default function OrderPage() {
   return (
   <div>
       <h1>Order Page</h1>
-      <Link to="/"/>
+      <Link to="/">
         <button>Déconnexion</button>
-      <Link />
+      </Link>
   </div>
   )
 }
