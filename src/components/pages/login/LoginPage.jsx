@@ -6,5 +6,6 @@ export default function LoginPage() {
   //render
   return (
       <LoginForm />
+      
   );
 }

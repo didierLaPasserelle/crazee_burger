@@ -22,7 +22,7 @@ export default function LoginForm() {
 <form action="submit" onSubmit={handleSubmit}>
     <h1>Bienvenue chez nous !</h1>
     <br />
-    <h2>Connectez-vous</h2>
+    <h2 style={{ color:"red", backgroundColor: "blue", fontSize: 20 }}>Connectez-vous</h2>
     <input 
         type="text" 
         placeholder="Entrez votre prénom"
@@ -30,6 +30,7 @@ export default function LoginForm() {
         onChange={handleChange}
         required
     />
-    <button>Accéder à votre espace</button>
+    <div>Accéder à votre espace</div>
 </form>  )
 }
+
